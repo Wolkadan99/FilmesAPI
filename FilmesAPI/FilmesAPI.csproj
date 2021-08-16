@@ -5,20 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Data\FilmeContext.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Data\FilmeContext.cs">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FilmeContext.cs</LastGenOutput>
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>FilmeContext.cs</DependentUpon>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.9">
       <PrivateAssets>all</PrivateAssets>
